@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Carbon footprint calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <title>Carbon footprint calculator</title>
+
+<script 
+         src = "https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js">
+      </script>
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+        <link rel="shortcut icon" type="image/ico" href="https://storage.googleapis.com/p4-production-content/international/wp-content/uploads/2018/01/e3f6f791-favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="title" content=""/>
+<link href='/ea-demo/frontend/pbAssets/build/css/enPage.css?v=3.49.0' rel='stylesheet' type='text/css' />
+<link href="/css/calculatorstyle" rel="stylesheet" type="text/css"/>
+<script src='/page/33073/campaigner/0/pagedata.js?locale=en-ZA'></script>
+</head>
+
+    <body>
+        
+        <div>
+            <nav id="header" class="top-navigation">
+                <a class="site-logo" href="https://www.greenpeace.org/africa/en/">
+                    <img src="https://www.greenpeace.org/international/wp-content/themes/planet4-master-theme/images/gp-logo.svg" alt="Greenpeace">
+                </a>
+            </nav>
+        </div>
+        <div>
+            <p></p>
+            <p></p>
+        </div>
+        <br>
+
+        <div class="mdl-layout mdl-js-layout">
+            <main class="mdl-layout__content">
+
+                <!--  cards start -->
+                <div id="results" class="mdl-grid portfolio-max-width" style="background-colour:transparent;">
+                    <div id="form" class="mdl-cell mdl-cell--12-col portfolio-contact">
+
+
+                        <div class="mdl-card__supporting-text">
+                            
+                            <form id="msform" action = "#">
+                                
+                                <fieldset>      
+                                    <div class="mdl-textfield mdl-js-textfield">
+			                        
+			                        <h2>CALCULATE YOUR CARBON FOOTPRINT</h2>
+			                        </div>
+                                    <input type="button" name="next" class="next action-button" value="START" />
+                                </fieldset>
+
+                                <fieldset>      
+                                    <div class="mdl-textfield mdl-js-textfield">
+                                        <div class="container1">
+
+                                            <svg version="1.1" id="hei-loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-16 5.5 115.3 141.5" style="enable-background:new -16 5.5 115.3 141.5;" xml:space="preserve">
+
+                                            <g id="bulb_1_">
+                                            <path id="bulb-body-fill" class="st0" d="M79.7,67.8c0-18.4-16.9-33.2-37.7-33.2S4.3,49.4,4.3,67.8c0,7.3,2.7,14,7.1,19.4
+                                                  c0.5,0.7,15.5,21.9,16.7,30.8c1.3,9.1,1.3,11.5,1.3,11.5h25.2c0,0,0-2.4,1.3-11.5c1.3-8.9,16.2-30,16.7-30.8
+                                                  C77.1,81.8,79.7,75.1,79.7,67.8" />
+                                            <path id="bulb-body" class="st1" d="M79.4,67.8c0-18.4-16.9-33.2-37.7-33.2S4,49.4,4,67.8c0,7.3,2.7,14,7.1,19.4
+                                                  c0.5,0.7,15.5,21.9,16.7,30.8c1.3,9.1,1.3,11.5,1.3,11.5h25.2c0,0,0-2.4,1.3-11.5c1.3-8.9,16.2-30,16.7-30.8
+                                                  C76.8,81.8,79.4,75.1,79.4,67.8" />
+                                            <g>
+                                            <line id="one" class="st2" x1="-15.3" y1="36.8" x2="-4.8" y2="47.4" />
+                                            <line id="two" class="st2" x1="-3.4" y1="16.6" x2="8.1" y2="32.7" />
+                                            <line id="three" class="st2" x1="21" y1="13.2" x2="24.5" y2="26.8" />
+                                            <line id="four" class="st2" x1="41.4" y1="5.5" x2="42.3" y2="24.9" />
+                                            <line id="five" class="st2" x1="61.9" y1="14.2" x2="57.8" y2="27.9" />
+                                            <line id="six" class="st2" x1="88.2" y1="19.4" x2="74.5" y2="34" />
+                                            <line id="seven" class="st2" x1="98.7" y1="40" x2="86.2" y2="48.8" />
+                                            </g>
+                                            <line id="middle-screw" class="st1" x1="25.9" y1="138.5" x2="58" y2="138.5" />
+                                            <line id="bottom-screw" class="st1" x1="25.9" y1="146" x2="58" y2="146" />
+                                            </g>
+                                            </svg>
+
+                                        </div>
+                                        <div class = "mdl-textfield mdl-js-textfield">
+                                            Monthly Electric Bill in R
+                                        <input  class="mdl-textfield__input" id="electric" name="electric" step="1" pattern = "-?[0-9]*(\.[0-9]+)?">
+                                         <span class = "mdl-textfield__error">Number required!</span>
+                                       </div>  
+                                    </div>
+                                    <input type="button" name="next" class="next action-button" value="Next" />
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="mdl-textfield mdl-js-textfield">
+                                        <div class="fire">
+                                            <div class="fire-left">
+                                                <div class="main-fire"></div>
+                                                <div class="particle-fire"></div>
+                                            </div>
+                                            <div class="fire-main">
+                                                <div class="main-fire"></div>
+                                                <div class="particle-fire"></div>
+                                            </div>
+                                            <div class="fire-right">
+                                                <div class="main-fire"></div>
+                                                <div class="particle-fire"></div>
+                                            </div>
+                                            <div class="fire-bottom">
+                                                <div class="main-fire"></div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <div class = "mdl-textfield mdl-js-textfield">
+                                            Monthly Gas Bill in R
+                                        <input class="mdl-textfield__input" id="gas" step="1" pattern ="-?[0-9]*(\.[0-9]+)?" >
+                                        <span class = "mdl-textfield__error">Number required!</span>
+                                        </div>
+                                    </div>
+                                    <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                    <input type="button" name="next" class="next action-button" value="Next" />
+                                </fieldset>
+                                <fieldset>
+                                    <div class="mdl-textfield mdl-js-textfield">
+                                        <div class="container2">
+                                            <div class="animation">
+                                                <div class="car">
+                                                    <div class="body">
+                                                        <div class="upperbody">
+                                                            <div class="window">
+                                                                <div class="line"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="backwheel"></div>
+                                                        <div class="frontwheel"></div>
+                                                    </div>
+                                                    <div class="road"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class = "mdl-textfield mdl-js-textfield">
+                                            Monthly Petrol Bill in R
+                                        <input class="mdl-textfield__input" id="oil" step="1" pattern = "-?[0-9]*(\.[0-9]+)?" >
+                                        <span class = "mdl-textfield__error">Number required!</span>
+                                        </div>
+                                    </div>
+                                    <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                    <input type="button" name="next" class="next action-button" value="Next" />
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="mdl-textfield mdl-js-textfield">
+                                        <div class="bx-container">
+                                            
+                                            <svg class="gauge" viewBox="0 0 122 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+                                            <title>Audience Size</title>
+                                            <desc>Created with Sketch.</desc>
+                                            <defs>
+                                            <polygon id="path-1" points="0 59 116.04878 59 116.04878 0 1.48780488 0"></polygon>
+                                            <polygon id="path-3" points="49.097561 49.9230769 0 49.9230769 0 0"></polygon>
+                                            <polygon id="path-5" points="49.097561 49.9230769 0 49.9230769 0 0"></polygon>
+                                            </defs>
+                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="audience-size" transform="translate(0.000000, -26.000000)">
+                                            <g id="Audience-Size" transform="translate(0.000000, 26.000000)">
+                                            <g id="normal" transform="translate(2.975610, 0.000000)">
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <g id="Mask" fill-rule="nonzero"></g>
+                                            <path d="M0,59 C0,26.4151998 25.9784044,0 58.0243902,0 C90.0703761,0 116.04878,26.4151998 116.04878,59 M94.6713736,59 C94.6713736,38.4201262 78.2639603,21.7368421 58.0243902,21.7368421 C37.7848202,21.7368421 21.3774069,38.4201262 21.3774069,59" id="normal-reach" fill="#36DB92" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                                            </g>
+                                            <g id="specific" transform="translate(0.000000, 9.076923)">
+                                            <mask id="mask-4" fill="white">
+                                                <use xlink:href="#path-3"></use>
+                                            </mask>
+                                            <g id="Mask" fill-rule="nonzero"></g>
+                                            <path d="M97.6469833,49.9230769 C97.6469833,29.3432031 81.23957,12.659919 61,12.659919 C40.76043,12.659919 24.3530167,29.3432031 24.3530167,49.9230769 M2.97560976,49.9230769 C2.97560976,17.3382767 28.9540142,-9.07692308 61,-9.07692308 C93.0459858,-9.07692308 119.02439,17.3382767 119.02439,49.9230769" id="specific-bg" fill="#DB3636" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                                            <path d="M-2.5243549e-29,-0.0769230769 L49,49.9230769" id="seperator" stroke="#FFFFFF" stroke-width="3" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                                            </g>
+                                            <g id="broad" transform="translate(97.000000, 34.076923) scale(-1, 1) translate(-97.000000, -34.076923) translate(72.000000, 9.076923)">
+                                            <mask id="mask-6" fill="white">
+                                                <use xlink:href="#path-5"></use>
+                                            </mask>
+                                            <g id="mask" fill-rule="nonzero"></g>
+                                            <path d="M97.6469833,49.9230769 C97.6469833,29.3432031 81.23957,12.659919 61,12.659919 C40.76043,12.659919 24.3530167,29.3432031 24.3530167,49.9230769 M2.97560976,49.9230769 C2.97560976,17.3382767 28.9540142,-9.07692308 61,-9.07692308 C93.0459858,-9.07692308 119.02439,17.3382767 119.02439,49.9230769" id="broad-bg" fill="#FBD036" fill-rule="nonzero" mask="url(#mask-6)"></path>
+                                            <path d="M-2.27373675e-13,-0.0769230769 L49,49.9230769" id="seperator" stroke="#FFFFFF" stroke-width="3" fill-rule="nonzero" mask="url(#mask-6)"></path>
+                                            </g>
+                                            <path class="meter" d="M61.8517914,10 L61.8517914,10 C61.8691994,10 61.8836031,10.0135435 61.8846737,10.0309185 L64.7574722,56.6539399 C64.8423873,58.0320381 63.7940553,59.2180448 62.4159571,59.3029599 C62.3647669,59.3061141 62.3134919,59.3076923 62.2622047,59.3076923 L61.5,59.3076923 C60.1192881,59.3076923 59,58.1884042 59,56.8076923 C59,56.7574485 59.0015147,56.7072162 59.0045419,56.6570637 L61.8189478,10.0309209 C61.8199963,10.0135504 61.8343893,10 61.8517914,10 Z" id="needel" stroke="#FFFFFF" fill="#1F2532" fill-rule="nonzero"></path>
+                                            </g>
+                                            </g>
+                                            </g>
+                                            </svg>
+                                        </div>
+                                        <div class = "mdl-textfield mdl-js-textfield">
+                                            Annual KM driven on your car
+                                        <input class="mdl-textfield__input" id="car" pattern = "-?[0-9]*(\.[0-9]+)?" step="1">
+                                        <span class = "mdl-textfield__error">Number required!</span>
+                                        </div>
+                                    </div>
+                                    <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                    <input type="button" name="next" class="next action-button" value="Next" />
+                                </fieldset>
+
+                                <fieldset>	   
+                                    <div class="mdl-textfield mdl-js-textfield">
+                                        <div class="container_plane">
+                                            <img alt="plane" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329304/noun_1478824.svg" />
+                                            <div class="streams">
+                                                <div class="stream"></div>
+                                                <div class="stream"></div>
+                                                <div class="stream"></div>
+                                            </div>
+                                        </div>
+                                        <div class = "mdl-textfield mdl-js-textfield" >Number of flights taken in the past year <strong>(4 hours or less)</strong>
+                                        <input class="mdl-textfield__input" id="flights-4-less" step="1" pattern = "-?[0-9]*(\.[0-9]+)?">
+                                        <span class = "mdl-textfield__error">Number required!</span>
+                                        </div>
+                                    </div>
+                                    <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                    <input type="button" name="next" class="next action-button" value="Next" />
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <div class="container_plane">
+                                            <img alt="plane" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329304/noun_1478824.svg" />
+                                            <div class="streams">
+                                                <div class="stream"></div>
+                                                <div class="stream"></div>
+                                                <div class="stream"></div>
+                                            </div>
+                                        </div>
+                                        <div class = "mdl-textfield mdl-js-textfield">Number of flights taken in the past year <strong>(4 hours or more)</strong>
+                                        <input class="mdl-textfield__input" id="flights-4-more" step="1" pattern = "-?[0-9]*(\.[0-9]+)?">
+                                        <span class = "mdl-textfield__error">Number required!</span>
+                                        </div>
+                                    </div>
+                                    <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                    <input type="button" name="next" class="next action-button" value="Next" />
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <i class="material-icons md-48">&#xE873;</i> </div>
+                                    <b>Do you recycle newspaper?</b><br/>
+                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="optionsRadio1">
+                                        <input checked class="mdl-radio__button" id="optionsRadio1" name="newspaperOptionsRadios" type="radio" value="on">
+                                        <span class="mdl-radio__label">Yes</span>
+                                    </label>
+                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="optionsRadio2">
+                                        <input class="mdl-radio__button" id="optionsRadio2" name="newspaperOptionsRadios" type="radio" value="off">
+                                        <span class="mdl-radio__label">No</span>
+                                    </label><br/>
+                                    <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                    <input type="button" name="next" class="next action-button" value="Next" />
+                                </fieldset>
+
+                                <fieldset>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <i class="material-icons md-48">&#xE872;</i> </div>
+                                    <b>Do you recycle aluminum and tin?</b><br/>
+                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="optionsRadio3">
+                                        <input checked class="mdl-radio__button" id="optionsRadio3" name="alumtinOptionsRadios" type="radio"
+                                               value="on">
+                                        <span class="mdl-radio__label">Yes</span>
+                                    </label>
+                                    <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="optionsRadio4">
+                                        <input class="mdl-radio__button" id="optionsRadio4" name="alumtinOptionsRadios" type="radio" value="off">
+                                        <span class="mdl-radio__label">No</span>
+                                    </label><br/>
+                                    <input type="button" name="previous" class="previous action-button" value="Previous" />
+                                    <input type="button" name="next" class="next action-button" value="Next">
+                                </fieldset>
+                                <fieldset>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <div class="petitionform pb-5">
+                                            <div class="container">
+                                                <h1 class="page-header-title custom-title"></h1>
+                                            </div>
+                                            <div class="container">
+                                               <iframe style="min-height: 320px;" src="https://act.greenpeace.org/page/33387/subscribe/1" width="100%" height="220px" frameborder="0"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
+                                               
+                                               <input id = "showresults" type="button" name="previous" class="previous action-button" value="Calculate" disabled="disabled"/>
+                                               
+                                               </div>
+</div>
+                                            
+                                        </div>
+                                </fieldset>
+
+                    </form>        
+
+                        </div>
+                    </div>
+
+                    <div id ="scorecard" class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--4dp portfolio-card">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Your Score</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h3 id="score"></h3>
+                            This number represents the amount of greenhouse gases in units of carbon dioxide you emit per year
+                        </div>
+                        <p id ="wastescore"> </p>
+                        <p id ="energyscore"> </p>
+                        <p id ="travelscore"> </p>
+
+
+                    </div>
+
+
+                    <!-- card score-->
+                    <div id="comparecard" class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--4dp portfolio-card">
+
+                        <div class="mdl-card__supporting-text mdl-card__actions mdl-card--border">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Compare</h2>
+                            </div>
+
+                            <ul class="demo-list-two mdl-list">
+                                <li class="mdl-list__item mdl-list__item--two-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-avatar">&#xE815;</i>
+                                        <span>60000 or below</span>
+                                        <span class="mdl-list__item-sub-title">Excellent</span>
+                                    </span>
+                                    <span class="mdl-list__item-secondary-content">
+                                        <span class="mdl-list__item-secondary-info">Your Score</span>
+                                        <span id="excellent"></span> 
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item mdl-list__item--two-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-avatar">&#xE813;</i>
+                                        <span>60000 - 159999</span>
+                                        <span class="mdl-list__item-sub-title">Good</span>
+                                    </span>
+                                    <span class="mdl-list__item-secondary-content">
+                                        <span id="good"></span> 
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item mdl-list__item--two-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-avatar">&#xE812;</i>
+                                        <span>160000 - 220000</span>
+                                        <span class="mdl-list__item-sub-title">Average</span>
+                                    </span>
+                                    <span class="mdl-list__item-secondary-content">
+                                        <span id="average"></span> 
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item mdl-list__item--two-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-avatar">&#xE814;</i>
+                                        <span>220000 or above</span>
+                                        <span class="mdl-list__item-sub-title">Bad</span>
+                                    </span>
+                                    <span class="mdl-list__item-secondary-content">
+                                        <span id="bad"></span> 
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class= "mdl-card__supporting-text mdl-card__actions mdl-card--border" style="padding: 0px 0px 15px 5px">
+                            <p> <br/>Carbon in the earth's atmosphere is leading to climate destabilization and we are reaching a tipping point that calls for urgent action!</p>
+<p>“You will die but the carbon will not; its career does not end with you. It will return to the soil, and there a plant may take it up again in time, sending it once more on a cycle of plant and animal life”. -Jacob Bronowski </p>
+                      <br/>
+
+                            <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://act.greenpeace.org/page/32693/petition/1">Take action</a>
+                            <p><br/> <br/></p>
+                        </div>
+                    </div>
+                    <!--card score end -->
+
+                    <div id="chart1card" class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--4dp portfolio-card">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Overall contribution</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <canvas id="myChart"></canvas>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div id="chart2card" class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--4dp portfolio-card">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Individual contribution</h2>
+                        </div>
+
+                        <div class="mdl-card__supporting-text">
+                            <canvas id="myChartbrief"></canvas>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--  cards end -->
+
+            </main>
+        </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <!-- jQuery -->
+    
+    <script>
+    setTimeout(
+        function() { 
+            document.getElementById('showresults').disabled = false; 
+        }, 
+        20000);
+    </script>
+    
+
+    <script>
+
+
+            const demoHome = document.getElementById('home');
+            const demoElectric = document.getElementById('electric');
+            const demoGas = document.getElementById('gas');
+            const demoOil = document.getElementById('oil');
+            const demoCar = document.getElementById('car');
+            const demoFlightshort = document.getElementById('flights-4-less');
+            const demoFlightlong = document.getElementById('flights-4-more');
+
+
+            $(document).ready(function () {
+                // hide results template and error alerts on initial page load
+                //$("#results").hide();
+                // prevent ability to type negative numbers or spaces in input fields
+
+                //js file
+
+                //jQuery time
+
+                $("#scorecard").hide();
+                $("#comparecard").hide();
+                $("#chart1card").hide();
+                $("#chart2card").hide();
+                var current_fs, next_fs, previous_fs; //fieldsets
+                var left, opacity, scale; //fieldset properties which we will animate
+                var animating; //flag to prevent quick multi-click glitches
+
+                $(".next").click(function () {
+                    if (animating)
+                        return false;
+                    animating = true;
+
+                    current_fs = $(this).parent();
+                    next_fs = $(this).parent().next();
+
+                    //activate next step on progressbar using the index of next_fs
+                    $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                    //show the next fieldset
+                    next_fs.show();
+                    //hide the current fieldset with style
+                    current_fs.animate({opacity: 0}, {
+                        step: function (now, mx) {
+                            //as the opacity of current_fs reduces to 0 - stored in "now"
+                            //1. scale current_fs down to 80%
+                            scale = 1 - (1 - now) * 0.2;
+                            //2. bring next_fs from the right(50%)
+                            left = (now * 50) + "%";
+                            //3. increase opacity of next_fs to 1 as it moves in
+                            opacity = 1 - now;
+                            current_fs.css({'transform': 'scale(' + scale + ')'});
+                            next_fs.css({'left': left, 'opacity': opacity});
+                        },
+                        duration: 0,
+                        complete: function () {
+                            current_fs.hide();
+                            animating = false;
+                        },
+                        //this comes from the custom easing plugin
+                        easing: 'easeInOutBack'
+                    });
+                });
+
+                $(".previous").click(function () {
+                    if (animating)
+                        return false;
+                    animating = true;
+
+                    current_fs = $(this).parent();
+                    previous_fs = $(this).parent().prev();
+
+                    //de-activate current step on progressbar
+                    $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+                    //show the previous fieldset
+                    previous_fs.show();
+                    //hide the current fieldset with style
+                    current_fs.animate({opacity: 0}, {
+                        step: function (now, mx) {
+                            //as the opacity of current_fs reduces to 0 - stored in "now"
+                            //1. scale previous_fs from 80% to 100%
+                            scale = 0.8 + (1 - now) * 0.2;
+                            //2. take current_fs to the right(50%) - from 0%
+                            left = ((1 - now) * 50) + "%";
+                            //3. increase opacity of previous_fs to 1 as it moves in
+                            opacity = 1 - now;
+                            current_fs.css({'left': left});
+                            previous_fs.css({'transform': 'scale(' + scale + ')', 'opacity': opacity});
+                        },
+                        duration: 0,
+                        complete: function () {
+                            current_fs.hide();
+                            animating = false;
+                        },
+                        //this comes from the custom easing plugin
+                        easing: 'easeInOutBack'
+                    });
+                });
+
+                $(".submit").click(function () {
+                    return false;
+                })
+
+                // js file end
+
+
+
+                $("[type='number']").bind("keydown", function (e) {
+                    var code = e.keyCode || e.which;
+
+                    if (code == 189 || code == 173 || code == 32 || code == 69 || code == 109) {
+                        return false;
+                    }
+                });
+            });
+
+            //$("#calculate-btn").on("click", function() {
+            //	calculateAndDisplayScore();
+
+            //});
+
+            /*$("input").change(function(){
+             calculateAndDisplayScore();
+             $('#mychart').html('');
+             $('#myChartbrief').html('');
+             
+             }); */
+
+
+
+            $("#recalculate-btn").on("click", function () {
+                location.reload();
+                window.scrollTo(0, 0);
+            });
+
+
+            $("#form").submit(function (event) {
+                // alert( "Handler for .submit() called." );
+                event.preventDefault();
+            });
+
+
+            var calculateAndDisplayScore = function () {
+                //window.scrollTo(0, 400);
+                // hide form template if all inputs are completed
+                //$("#form").hide();
+
+                // get input values
+                var electricInput = document.getElementById("electric").value;
+                var gasInput = document.getElementById("gas").value;
+                var oilInput = document.getElementById("oil").value;
+                var carInput = document.getElementById("car").value;
+                var flights4LessInput = document.getElementById("flights-4-less").value;
+                var flights4MoreInput = document.getElementById("flights-4-more").value;
+
+                // set variables for calculating each component score
+                var electricScore = "";
+                var gasScore = "";
+                var oilScore = "";
+                var carScore = "";
+                var flights4LessScore = "";
+                var flights4MoreScore = "";
+                var newspaperScore = "";
+                var alumTinScore = "";
+
+                var totalScore = "";
+                var scorecomment = "";
+                var wasteComment = "";
+                var energyComment = "";
+                var travelComment = "";
+
+                if (document.getElementById("optionsRadio1").checked) {
+                    newspaperScore = 0;
+                } else {
+                    newspaperScore = 184;
+                }
+                // console.log("Newspaper score is: " + newspaperScore);
+
+                if (document.getElementById("optionsRadio3").checked) {
+                    alumTinScore = 0;
+                } else {
+                    alumTinScore = 166;
+                }
+
+
+                // console.log("Aluminum and tin score is: " + alumTinScore);
+
+                if (electricInput === 0 || electricInput === "undefined") {
+                    electricScore = 0;
+                } else {
+                    electricScore = electricInput * 75;
+                }
+                // console.log("Electric score is: " + electricScore);
+
+                if (gasInput === 0 || gasInput === "undefined") {
+                    gasScore = 0;
+                } else {
+                    gasScore = gasInput * 75;
+                }
+                // console.log("Gas score is: " + gasScore);
+
+                if (oilInput === 0 || oilInput === "undefined") {
+                    oilScore = 0;
+                } else {
+                    oilScore = oilInput * 100;
+                }
+                // console.log("Oil score is: " + oilScore);
+
+                if (carInput === 0 || carInput === "undefined") {
+                    carScore = 0;
+                } else {
+                    carScore = carInput * 0.79;
+                }
+                // console.log("Car score is: " + carScore);
+
+                if (flights4LessInput === 0 || flights4LessInput === "undefined") {
+                    flights4LessScore = 0;
+                } else {
+                    flights4LessScore = flights4LessInput * 1000;
+                }
+                // console.log("Flights taken 4 hours or less score is: " + flights4LessScore);
+
+                if (flights4MoreInput === 0 || flights4MoreInput === "undefined") {
+                    flights4MoreScore = 0;
+                } else {
+                    flights4MoreScore = flights4MoreInput * 4000;
+                }
+                // console.log("Flights taken 4 hours or more score is: " + flights4MoreScore);
+
+                // calculate scores for each category
+                var energyScore = electricScore + gasScore + oilScore;
+                var travelScore = carScore + flights4LessScore + flights4MoreScore;
+                var wasteScore = newspaperScore + alumTinScore;
+
+                // calculate total score and round to nearest whole integer
+                totalScore = Math.round(energyScore + travelScore + wasteScore);
+
+                $('#excellent').html('');
+                $('#good').html('');
+                $('#average').html('');
+                $('#bad').html('');
+                $('#energyscore').html('');
+                $('#score').html('');
+                $('#wastescore').html('');
+                $('#energyscore').html('');
+                $('#travelscore').html('');
+                // display results
+                if (totalScore <= 60000)
+                {
+                    scorecomment = "Excellent";
+                    $('#excellent').html(totalScore + '<i class="material-icons">&#xE91D;</i>');
+
+                } else if ((totalScore > 60000) && (totalScore < 160000))
+                {
+                    scorecomment = "Good";
+                    $('#good').html(totalScore + '<i class="material-icons">&#xE91D;</i>');
+
+                } else if ((totalScore >= 160000) && (totalScore < 220000))
+                {
+                    scorecomment = "Average";
+                    $('#average').html(totalScore + '<i class="material-icons">&#xE91D;</i>');
+                } else
+                {
+                    scorecomment = "Bad";
+                    $('#bad').html(totalScore + '<i class="material-icons">&#xE91D;</i>');
+                }
+
+                if (wasteScore > 300)
+                {
+                    wasteComment = '<ul><li class="mdl-list__item">Try to Recycle/Reuse </li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE56C;</i>Go vegetarian for a week</span></li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE1A4;</i> Carry your own bottle</span></li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE16C;</i>Segregate Waste</span></li></ul>'
+                } else
+                {
+                    wasteComment = '<ul><li class="mdl-list__item">Keep Recycling/Reusing </li>'
+                }
+
+                if ((travelScore > 60000) && (travelScore < 160000))
+                {
+                    travelComment = '<ul><li class="mdl-list__item">Consider reducing your travel</span></li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE531;</i> Prefer car pooling</span></li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE195;</i> Avoid un necessary travel</span></li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE52F;</i> Cycle/Walk short distance</span></li></ul>'
+                } else if (travelScore >= 160000)
+                {
+                    travelComment = '<ul><li class="mdl-list__item">You are travelling too much </span></li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE195;</i> Strictly avoid un necessary travel</span></li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE559;</i> Prefer electric vehicle</span></li></ul>'
+                } else
+                {
+                    travelComment = '<ul><li class="mdl-list__item">Your travel plan seems to be good </li>'
+                }
+
+                if ((energyScore > 60000) && (energyScore < 160000))
+                {
+                    energyComment = '<ul><li class="mdl-list__item">Please consume less energy </li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE912;</i> Use Energy Star certified appliances</span></li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE90F;</i> Turn off lights</span></li></ul>'
+                } else if (energyScore > 160000)
+                {
+                    energyComment = '<ul><li class="mdl-list__item">You are consuming too much energy </span></li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE430;</i> Go Solar</span></li><li class="mdl-list__item"><span class="mdl-list__item-primary-content"><i class="material-icons mdl-list__item-icon">&#xE80E;</i> Save gas/oil</span></li></ul>'
+                } else
+                {
+                    energyComment = '<ul><li class="mdl-list__item"> Your enegry usage is under control </li>'
+                }
+
+
+                var generalComment = wasteComment + "</br> " + travelComment + "</br> " + energyComment;
+
+                var formattedScore = totalScore.toLocaleString("en");
+                formattedScore = "Your score is :" + formattedScore + " </br> which is " + scorecomment;
+                // console.log(totalScore);
+
+                document.getElementById("score").innerHTML = formattedScore;
+                document.getElementById("wastescore").innerHTML = wasteComment;
+                document.getElementById("travelscore").innerHTML = travelComment;
+                document.getElementById("energyscore").innerHTML = energyComment;
+
+
+                //alert(totalScore);
+                //alert(scorecomment);
+                $("#results").show();
+
+                // refresh page when recalculate button clicked
+                //Graph 1
+                var ctx = document.getElementById('myChart').getContext('2d');
+                var chart = new Chart(ctx, {
+                    // The type of chart we want to create
+                    type: 'doughnut',
+
+                    // The data for our dataset
+                    data: {
+                        labels: ["Energy", "Travel", "Waste"],
+                        datasets: [{
+                                label: "My First dataset",
+
+                                backgroundColor: ['red', 'blue', 'green'],
+                                borderColor: 'rgb(255, 99, 132)',
+                                data: [energyScore, travelScore, wasteScore],
+
+                            }]
+                    },
+
+                    // Configuration options go here
+                    options: {}
+                });
+                //Graph 1 end
+
+                //Graph 2
+                var ctx = document.getElementById('myChartbrief').getContext('2d');
+                var chart = new Chart(ctx, {
+                    // The type of chart we want to create
+                    type: 'polarArea',
+
+                    // The data for our dataset
+                    data: {
+                        labels: ["Electricity", "Gas", "Oil", "Short flight", "Long flight", "Newspaper", "Aluminiun"],
+                        datasets: [{
+                                label: "Distribution",
+                                backgroundColor: ['red', 'blue', 'green', 'yellow', 'orange', 'pink', 'grey'],
+                                borderColor: 'rgb(255, 99, 132)',
+                                data: [electricScore, gasScore, oilScore, flights4LessScore, flights4MoreScore, newspaperScore, alumTinScore],
+
+                            }]
+                    },
+
+                    // Configuration options go here
+                    options: {}
+                });
+                //Graph 2 end
+
+
+
+            }
+
+            $("#showresults").click(function () {
+                // assumes element with id='button'
+                calculateAndDisplayScore();
+                $("#form").hide();
+                $("#scorecard").show();
+                $("#comparecard").show();
+                $("#chart1card").show();
+                $("#chart2card").show();
+            });
+
+    </script><form method="post" action="/page/33073/action/2" class="en__component en__component--page">
+	<input type="hidden" name="hidden" class="en__hiddenFields" value="">
+
+	
+	<ul class="en__errorList">
+	</ul>
+
+		<div class="en__component en__component--row en__component--row--1">
+		<div class="en__component en__component en__component--column">
+</div>
+</div>
+</form></body>
+</html>
